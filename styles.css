@@ -31,7 +31,7 @@ nav a {
   min-width: 9rem;
   padding: 0.5rem;
   border-radius: 0.2rem;
-  border: solid 1px #aaa;
+  border: solid 1px #696D7D ;
   text-align: center;
   text-decoration: none;
   color: #000;
@@ -53,4 +53,19 @@ nav a:hover{
 h1 {
   font-weight: bold;
   font-size: 1.5rem;
+}
+
+.child {
+  border: dashed 1px rgb(92, 151, 187);
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.parent {
+display: flex;
+width: 100%;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
 }
