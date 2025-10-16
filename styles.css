@@ -63,10 +63,6 @@ h1 {
   font-family: Georgia;
 }
 
-.child:hover {
-  background-color: var(--secondary-color);
-}
-
 .parent {
 display: flex;
 width: 100%;
