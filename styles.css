@@ -55,24 +55,32 @@ h1 {
   font-size: 1.5rem;
 }
 
-.child {
-  border: dashed 1px var(--text-color);
-  padding: 1.75rem;
-  margin: 1rem;
-  background-color: var(--primary-color);
-  font-family: Georgia;
-}
-
-.child:hover {
-  background-color: var(--secondary-color);
-}
-
-.parent {
+.picture {
   display: flex;
-  width: 100%;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  width: 200px;
+  padding: 2rem;
+  background-color: var(--secondary-color);
+  text-decoration-color: var(--text-color);
+  position: relative;
+  top: 25px;
+  left: 160px;
+}
+
+.picture2 {
+  display: flex;
+  padding: 2rem;
+
+  background-color: var(--primary-color);
+  width: 200px;
+  position: relative;
+  top: 0px;
+  left: 320px;
+}
+
+.content {
+  padding: 1rem;
+  width: 200px;
+  position: relative;
+  justify-content: center;
   align-items: center;
-  background-color: var(--text-color);
 }
