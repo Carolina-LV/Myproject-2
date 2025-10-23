@@ -6,6 +6,7 @@
   --secondary-color: #8fc0a9;
   --background-color: #faf3dd;
   --text-color: #729db0;
+  --temp-color:#416630;
 }
 
 body {
@@ -69,7 +70,6 @@ h1 {
 .picture2 {
   display: flex;
   padding: 2rem;
-
   background-color: var(--primary-color);
   width: 200px;
   position: relative;
@@ -83,4 +83,31 @@ h1 {
   position: relative;
   justify-content: center;
   align-items: center;
+  position: relative;
+  top: 100px;
+  left: 50%;
+}
+
+.p2pic {
+padding: 1rem;
+position: relative;
+left: 85%;
+width: 200px;
+}
+
+.content2 {
+padding: 1rem;
+width: 200px;
+position: relative;
+top: 175px;
+left: 450px;
+background-color: var(--temp-color);
+}
+
+.p2pic2 {
+padding: 1rem;
+width: 200px;
+position: relative;
+top: 450px;
+left:800px;
 }
