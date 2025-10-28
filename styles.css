@@ -108,6 +108,31 @@ background-color: var(--temp-color);
 padding: 1rem;
 width: 200px;
 position: relative;
-top: 450px;
+top: 550px;
 left:800px;
+}
+
+.assignment{
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  top: 50px;
+  align-items: center;
+}
+
+.paint{
+width: 200px;
+display: flex;
+padding: 1rem;
+
+}
+
+.pots{
+width: 200px;
+display: flex;
+padding: 1rem;
+
 }
