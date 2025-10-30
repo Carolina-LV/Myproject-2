@@ -63,7 +63,7 @@ h1 {
   background-color: var(--secondary-color);
   text-decoration-color: var(--text-color);
   position: relative;
-  top: 25px;
+  top: 10px;
   left: 160px;
 }
 
@@ -73,7 +73,7 @@ h1 {
   background-color: var(--primary-color);
   width: 200px;
   position: relative;
-  top: 0px;
+  top: 100px;
   left: 320px;
 }
 
@@ -91,6 +91,7 @@ h1 {
 .p2pic {
 padding: 1rem;
 position: relative;
+
 left: 85%;
 width: 200px;
 }
@@ -116,23 +117,17 @@ left:800px;
   flex-wrap: wrap;
   display: flex;
   width: 100%;
-  flex-direction: column;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-evenly;
   position: relative;
-  top: 50px;
+  top: 35px;
   align-items: center;
 }
 
-.paint{
-width: 200px;
+.picture3{
+width: 45%;
 display: flex;
 padding: 1rem;
-
+min-width: 200px;
 }
 
-.pots{
-width: 200px;
-display: flex;
-padding: 1rem;
-
-}
