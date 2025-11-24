@@ -19,12 +19,24 @@
 
   <form name="my form">
     <label>
+      <div>
       Email:
       <input type="text" name="email" id="email">
       </label>
+      
+    </div>
 
-      <button id="mybutton">
-      place holder
+    <lable for="checkbox"> By checking "Yes" you are agreeing to recieve mail</lable>
+    <div style="display: flex;">
+    <input type="checkbox" name="checkbox">
+    <div>Yes</div>
+    </div>
+    <div style="display:flex;">
+      <input type="checkbox" name="checkbox">
+      <div style="margin-left: .5rem;"> No </div>
+    </div>
+    <input type="date">
+      
       </button>
       <input type="submit" onclick="Fsub()"/>
 
