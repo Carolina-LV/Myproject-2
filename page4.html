@@ -43,7 +43,20 @@
 
       <script>
         function Fsub() {
-            alert("Form successfully submitted");
+            const myVar="this is a string";
+            console.log(myVar);
+            const nameInput = document.getElementById("email").value
+            console.log (nameInput);
+            alert("Thanks for Submitting,"+nameInput);
+
+            function subNumbers(numOne, numTwo) {
+              return numOne - numTwo;
+              console.log(
+                subNumbers()
+
+              )
+
+            }
         }
     </script> 
     </form>
