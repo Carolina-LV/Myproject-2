@@ -18,6 +18,12 @@
   <body>
 
   <form name="my form">
+    <div class="name">
+      <label>
+        Name:
+        <input type="text" name="Name" id="Name">
+      </label>
+    </div>
     
       <div>
       <label>
@@ -45,9 +51,9 @@
         function Fsub() {
             const myVar="this is a string";
             console.log(myVar);
-            const nameInput = document.getElementById("email").value
+            const nameInput = document.getElementById("Name").value
             console.log (nameInput);
-            alert("Thanks for Submitting,"+nameInput);
+            alert("Thanks for Submitting, "+nameInput);
 
             function subNumbers(numOne, numTwo) {
               return numOne - numTwo;
@@ -58,11 +64,30 @@
 
             }
         }
+      
     </script> 
     </form>
-
-
-
+  
+    <label>
+      Dark Mode
+     <input type="checkbox" onhange="toggleDarkMode()">
+   </label>
+   <script>
+    let darkMode=false;
+    function toggleDarkMode() {
+      console.log("Dark Mode initially is"+darkMode)
+      if (darkMode==true) {
+      darkMode=false;
+document.body.style["backgroundColor"]="black";
+        document.body.style["color"]=["#faf3dd"]
+      } else {
+        darkMode=true;
+        document.color.style["backgroundColor"]="black";
+        document.color.style["color"]="#faf3dd"
+      }
+      console.log("Dark Mode has been changed to"+DarkMode)
+    }
+   </script>
 
   </body>
   </html>
