@@ -46,6 +46,7 @@ nav a[aria-current="page"] {
 
 main {
   padding: 1rem;
+  text-align: center;
 }
 
 nav a:hover {
@@ -73,21 +74,19 @@ h1 {
   padding: 2rem;
   background-color: var(--primary-color);
   width: 200px;
-  position: relative;
-  top: 100px;
-  left: 320px;
+  position: fixed;
+  top: 700px;
+  left: 800px;
 }
 
 .content {
   padding: 1rem;
-  width: 200px;
-  position: relative;
+  
+  position: fixed;
   justify-content: center;
   align-items: center;
-  position: relative;
-  top: 100px;
-  left: 50%;
-  display:inline-flex;
+  top: 500px;
+  display:flex;
   font-family:Molle;
 }
 
