@@ -116,17 +116,19 @@ bottom: 300px;
 .p2pic {
 padding: 1rem;
 position: relative;
-
-left: 85%;
+transform: rotate(15deg);
+left: 73%;
 width: 200px;
+bottom: 50px;
 }
 
 .content2 {
 padding: 1rem;
 width: 200px;
+display: flex;
+align-items: center;
+justify-content: center;
 position: relative;
-top: 175px;
-left: 450px;
 background-color: var(--temp-color);
 }
 
@@ -134,8 +136,8 @@ background-color: var(--temp-color);
 padding: 1rem;
 width: 200px;
 position: relative;
-top: 550px;
-left:800px;
+transform: rotate(-15deg);
+left: 10%;
 }
 
 
