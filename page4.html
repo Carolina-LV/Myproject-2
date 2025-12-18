@@ -70,22 +70,23 @@
 
     <label>
       Dark Mode
-     <input type="checkbox" onhange="toggleDarkMode()">
+     <input type="checkbox" onchange="toggleDarkMode()">
    </label>
    <script>
     let darkMode=false;
     function toggleDarkMode() {
+
       console.log("Dark Mode initially is"+darkMode)
       if (darkMode==true) {
-      darkMode=false;
-document.body.style["backgroundColor"]="black";
-        document.body.style["color"]=["#faf3dd"]
+        darkMode=false;
+        document.body.style["backgroundColor"]="#faf3dd";
+        document.body.style["color"]=["black"]
       } else {
         darkMode=true;
-        document.color.style["backgroundColor"]="black";
-        document.color.style["color"]="#faf3dd"
+        document.body.style["backgroundColor"]="black";
+        document.body.style["color"]="#faf3dd"
       }
-      console.log("Dark Mode has been changed to"+DarkMode)
+      console.log("Dark Mode has been changed to"+darkMode)
     }
    </script>
 
