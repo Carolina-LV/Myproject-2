@@ -140,5 +140,17 @@ transform: rotate(-15deg);
 left: 10%;
 }
 
-
+.explain {
+  padding: 1rem;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 20px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  display:flex;
+  background-color: #9ddfc0;
+flex-direction: column;
+}
 
